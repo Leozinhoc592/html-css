@@ -23,14 +23,22 @@
         }
         div#q2{
             background-image: linear-gradient(to bottom,yellow,red);
+            color: blue;
 
         }
         div#q3{
             background-image: url(imagens/pattern001.png);
+            color: white;
 
         }
-        div:hover {
-            
+        div#q4{
+            border: 2px solid black;
+            width: 150px;
+            height: 250px;
+            background-color: lightgray;
+        }
+        div#q4 > h1,p,a {
+            font-weight: bold;
         }
         div > p {
             color: rgb(255, 0, 0);
@@ -38,16 +46,27 @@
         div > p:hover {
             background-color: blueviolet;
         }
+
         
         
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1"><p>testando1</p>     </div>
-    <div class="quadrado" id="q2"><p>testando2</p>     </div>
-    <div class="quadrado" id="q3"><p>testando3</p>     </div>
-    <div class="quadrado">
-        <h1>Testando acesso a outras paginas</h1>
+    <div class="quadrado" id="q1">
+        <h1>Bloco 1</h1>
+        <p>LEUELUELULEU</p>
+        
+    </div>
+    <div class="quadrado" id="q2">
+        <h1>Bloco 2</h1>
+        <p>LEUELUELULEU</p>
+        </div>
+    <div class="quadrado" id="q3">
+        <h1>Bloco 3</h1>
+        <p>LEUELUELULEU</p>
+         </div>
+    <div id="q4">
+        <h1>Outras paginas</h1>
         <a href="https://leozinhoc592.github.io/html-css/Exercicios/Desafio16/index.html">Link de outra pagina</a>
     </div>
 
